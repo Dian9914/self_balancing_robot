@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="self_balancing_robot" type="data_collection_node.py" name="data_collection" output="screen"/>
+
+    <node pkg="self_balancing_robot" type="control_node.py" name="control" output="screen"/>
+
+    <node pkg="self_balancing_robot" type="stepper_node.py" name="stepper" output="screen"/>
+
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="self_balancing_robot" type="data_collection_node.py" name="data_collection" output="screen"/>
+</launch>
